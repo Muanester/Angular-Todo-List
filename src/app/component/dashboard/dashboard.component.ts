@@ -30,7 +30,7 @@ export class DashboardComponent {
         this.taskArr = res;
       },
       (err) => {
-        alert('Unable to get list of tasts' + err);
+        alert('Unable to get list of tasts');
       }
     );
   }
@@ -55,7 +55,7 @@ export class DashboardComponent {
         this.ngOnInit();
       },
       (err) => {
-        alert('Failed to update task' + err);
+        alert('Failed to update task');
       }
     );
   }
@@ -66,7 +66,7 @@ export class DashboardComponent {
         this.ngOnInit();
       },
       (err) => {
-        alert('Failed to delete task' + err);
+        alert('Failed to delete task');
       }
     );
   }
